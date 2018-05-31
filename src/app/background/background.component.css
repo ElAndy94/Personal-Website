@@ -5,7 +5,20 @@
   /*opacity: 0.8;*/
   /*!*filter: alpha(opacity=40);*!*/
 /*}*/
+body {
+  margin: 0;
+}
 
+.app {
+  height: 100vh; /* 100% of the device's current height */
+  width: 100vw; /* 100% of the device's current width */
+  background: url('assets/background2.jpg');
+  background-position: center;
+  background-size: cover; /* Scales the image down window gets smaller */
+  margin: 0;
+  overflow: hidden;
+  opacity: 0.8;
+}
 /*body {*/
   /*background-image: url("/src/assets/background2.jpg");*/
 /*}*/
