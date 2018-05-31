@@ -1,0 +1,29 @@
+#myYear {
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  font-family: courier;
+  /*display: block;*/
+  /*top: -594px;*/
+  /*left: -21px;*/
+}
+
+/*#tableStyle {*/
+  /*display: block;*/
+  /*margin-left: auto;*/
+  /*margin-right: auto;*/
+  /*width: 70%;*/
+  /*!*display: inline-block;*!*/
+  /*!*max-width: 70%;*!*/
+  /*!*padding-left:2em;*!*/
+  /*!*position: ;*!*/
+/*}*/
+
+#cardUnitsStyle {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
