@@ -6,9 +6,13 @@ import {Component, OnInit} from '@angular/core';
   styleUrls: ['./experience.component.css']
 })
 export class ExperienceComponent implements OnInit {
-  workExp = ['(Summer Job) Customs Officer, Gibraltar', 'Managing Director of Andy Holdings Ltd', 'Co-Founder of Avanti Construction & Maintenance', 'ICT Technician, Systems Services, Gibraltar'];
+  workExp = [
+    '(Summer Job) Customs Officer, Gibraltar', '(Jun 2015 – Aug 2015)', 'Managing Director of Andy Holdings Ltd', '(May 2013 – Aug 2015)', 'Co-Founder of Avanti Construction & Maintenance', '(Oct 2012 – Mar 2013)', 'ICT Technician, Systems Services, Gibraltar', '(Mar 2011 – May 2011)'];
 
-  vol = 'Trainee at Gibraltar Fire & Rescue';
+  vol = ['Trainee at Gibraltar Fire & Rescue', 'May 2010 – May 2010'];
+
+  jobRef = [
+    'Francis Rodriguez', 'Customs Officer Manager', 'Dr Kristopher Welsh', 'University Tutor'];
 
   public cust = [
     '• Signing important classified papers and checking merchandise, which gave me legal knowledge.', '• Dealing with various clients to sign off the clearing merchandise forms.', '• Clearing items and personal that cross the borders.', '• Keeping all old records up to date with the system.'];
@@ -38,6 +42,14 @@ export class ExperienceComponent implements OnInit {
     '• Trained on physical tasks such as abseiling.',
     '• Learnt how to work under pressure in advanced rescue skills.',
     '• Quick learner to adapt to every different tests and training with different scenarios daily.'];
+
+  public pref = [
+    'Telephone: +350 54013879', 'Address:', 'Customs House', 'Waterport', 'Gibraltar', 'GX11 1AA'
+  ];
+
+  public ppref = [
+    'Email: k.welsh@mmu.ac.uk', 'Telephone: +44 (0)161 247 3531', 'Address:', 'Manchester Metropolitan University', 'Chester Street', 'Manchester', 'M1 5GD'
+  ];
 
   constructor() {
   }

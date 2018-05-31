@@ -9,8 +9,8 @@ export class EducationComponent implements OnInit {
   yearThree = ['Project', 'Advanced Web Development', 'Data Engineering', 'Information Systems Strategy'];
   yearTwo = ['Web Design and Development','Web Based Business Systems','Database Systems','Professional Development'];
   yearOne = ['Java Programming','Computer System Fundamentals','Web and Multimedia','Information Systems and Database'];
-  college = 'Kingston College, London - Merit';
-  baysideSchool = 'Bayside Comprehensive, Gibraltar';
+  college = ['Kingston College, London',  'Merit', '(Sept 2014 – July 2015)'];
+  baysideSchool = ['Bayside Comprehensive, Gibraltar', '(2006 – 2010)'];
 
   public projectDescription = 'Research, design, implement, test and evaluate a JavaScript Game, made using Node.js, MongoDB, JavaScript and HTML5/CSS. Repository hosted on GitHub.';
 
