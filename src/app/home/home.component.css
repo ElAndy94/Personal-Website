@@ -1,55 +1,24 @@
-/*.background {*/
-  /*display: block;*/
-  /*max-width: 100%;*/
-  /*max-height: 100%;*/
-  /*opacity: 0.8;*/
-  /*!*filter: alpha(opacity=40);*!*/
-/*}*/
-
-#myName {
-  position: relative;
-  /*display: block;*/
-  /*top: -594px;*/
-  /*left: -21px;*/
-  margin-left: auto;
-  margin-right: auto;
-  width: 40%;
-  font-family: courier;
-  /*color: white;*/
-}
-
-.myInfo {
-  position: relative;
-  /*display: block;*/
-  /*top: -558px;*/
-  /*right: 168px;*/
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-  font-family: courier;
-  /*color: white;*/
-}
-
 /*#myName {*/
   /*position: relative;*/
   /*!*display: block;*!*/
-  /*top: -594px;*/
-  /*left: -21px;*/
+  /*!*top: -594px;*!*/
+  /*!*left: -21px;*!*/
   /*margin-left: auto;*/
   /*margin-right: auto;*/
   /*width: 40%;*/
   /*font-family: courier;*/
-  /*color: white;*/
+  /*!*color: white;*!*/
 /*}*/
 
 /*.myInfo {*/
   /*position: relative;*/
   /*!*display: block;*!*/
-  /*top: -558px;*/
-  /*right: 168px;*/
-  /*margin-left: auto;*/
-  /*margin-right: auto;*/
+  /*!*top: -558px;*!*/
+  /*!*right: 168px;*!*/
+  /*!*margin-left: auto;*!*/
+  /*!*margin-right: auto;*!*/
   /*width: 50%;*/
   /*font-family: courier;*/
-  /*color: white;*/
+  /*!*color: white;*!*/
 /*}*/
+

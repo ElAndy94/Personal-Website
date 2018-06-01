@@ -3,7 +3,7 @@
   /*margin-bottom: 0px;*/
 /*}*/
 
-.nav-item {
+.nav-item-cust {
   padding-left: 50px;
   font-family: courier;
 }
@@ -12,3 +12,6 @@
   font-family: courier;
 }
 
+.navbar {
+  margin-bottom: 0px;
+}

@@ -13,7 +13,8 @@ const appRoutes: Routes = [
   { path: 'home', component: HomeComponent },
   { path: 'education', component: EducationComponent },
   { path: 'experience', component: ExperienceComponent },
-  { path: 'interests', component: InterestsComponent }
+  { path: 'interests', component: InterestsComponent },
+  { path: '**', component: HomeComponent } /*I need to fix this*/
 ];
 
 
