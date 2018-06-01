@@ -1,7 +1,8 @@
 <div class="container">
-<p class="uniTitle"> BSc (Hons) Computing, Manchester Metropolitan University <br>
-  (Sept 2015 – May 2018)</p>
-  <h4>Third Year</h4>
+  <p class="uniTitle"> BSc (Hons) Computing, Manchester Metropolitan University <br>
+    (Sept 2015 – May 2018)</p>
+  <hr>
+  <h4>Third Year: Predicted 1st Class</h4>
   <div class="card-deck">
     <div class="card border-dark mb-3">
       <div class="card-body text-dark">
@@ -10,8 +11,8 @@
         <p class="card-text">{{ projectDescription }}</p>
         <hr>
         <div class="text-center">
-          <a href="https://github.com/ElAndy94/Multiplayer-Shooting-Game" class="btn btn-dark btn-mm ">
-            <i class="fab fa-github"></i>
+          <a id="btnPro" (click)="clickProject()" class="btn btn-dark btn-mm ">
+            <i class="fab fa-github"></i> Multiplayer Shooter
           </a>
         </div>
       </div>
@@ -23,11 +24,12 @@
         <p class="card-text">{{ advDescription }}</p>
         <hr>
         <div class="text-center">
-          <a href="https://github.com/ElAndy94/Mortgage-Calculator" class="btn btn-dark btn-mm ">
-            <i class="fab fa-github"></i>
+          <a id="btnCal" (click)="clickCal()" class="btn btn-dark btn-mm ">
+            <i class="fab fa-github"></i> Mortgage Calculator
           </a>
-          <a href="https://github.com/ElAndy94/Paperless-Restaurant" class="btn btn-dark btn-mm ">
-            <i class="fab fa-github"></i>
+          <hr>
+          <a id="btnRest" (click)="clickRest()" class="btn btn-dark btn-mm ">
+            <i class="fab fa-github"></i> Paperless Restaurant
           </a>
         </div>
       </div>
@@ -52,7 +54,7 @@
     </div>
   </div>
   <hr>
-  <h4>Second Year</h4>
+  <h4>Second Year: 1st Class</h4>
   <div class="card-deck">
     <div class="card border-dark mb-3">
       <div class="card-body text-dark">
@@ -61,8 +63,8 @@
         <p class="card-text">{{ webDesign }}</p>
         <hr>
         <div class="text-center">
-          <a href="https://github.com/ElAndy94/First-Project-MultiPlayer-SnakeGame" class="btn btn-dark btn-mm ">
-            <i class="fab fa-github"></i>
+          <a id="btnSnake" (click)="clickSnake()" class="btn btn-dark btn-mm ">
+            <i class="fab fa-github"></i> Multiplayer Snake Game
           </a>
         </div>
       </div>
@@ -95,7 +97,7 @@
     </div>
   </div>
   <hr>
-  <h4>First Year</h4>
+  <h4>First Year: 1st Class</h4>
   <div class="card-deck">
     <div class="card border-dark mb-3">
       <div class="card-body text-dark">
@@ -132,14 +134,14 @@
       </div>
     </div>
   </div>
-<hr>
+  <hr>
   <h4>College / High School</h4>
   <div class="card-deck">
     <div class="card border-dark mb-3">
       <div class="card-body text-dark">
         <h5 class="card-title">{{ college [0] }}<br>{{ college [1] }}<br>{{ college [2] }}</h5>
         <hr>
-        <p class="card-text">{{ gradeCollege }}</p>
+        <p class="card-text">{{ gradeCollege [0] }}<br>{{ gradeCollege [1] }}</p>
         <hr>
       </div>
     </div>

@@ -1,3 +1,18 @@
-<p>
-  My main hobbies are sports and keeping physically fit. I currently enjoy going to the gym daily as this helps me motivate myself to achieve my own personal goals. This has proved to me that I have strong determination to attain my long-term goals. During my second year at university I developed a passion for web development and because of this I developed a web application for my final year project. This made me realise that I would like a career in web development. To further develop my skills, I am currently taking a Udemy online course in Angular which can be found on my GitHub, alongside with all my other web development projects.
-</p>
+<div class="container">
+  <div class="text-center">
+    <div class="card border-dark mb-3">
+      <div class="card-body text-dark">
+        <p class="card-text">{{ interests [0] }} </p>
+        <hr>
+        <p class="card-text">{{ interests [1] }} </p>
+        <hr>
+        <p class="card-text">{{ interests [2] }} </p>
+
+        <div class="text-center">
+          <a id="btnMarg" (click)="clickAng()" class="btn btn-dark btn-mm ">
+            <i class="fab fa-github"></i> Angular Project
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>

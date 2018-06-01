@@ -11,6 +11,7 @@ export class EducationComponent implements OnInit {
   yearOne = ['Java Programming','Computer System Fundamentals','Web and Multimedia','Information Systems and Database'];
   college = ['Kingston College, London',  'Merit', '(Sept 2014 – July 2015)'];
   baysideSchool = ['Bayside Comprehensive, Gibraltar', '(2006 – 2010)'];
+  gradeCollege = ['Access to Higher Education Computing.', 'Selected for meetings with OCN London to give feedback on how to improve the access courses.'];
 
   public projectDescription = 'Research, design, implement, test and evaluate a JavaScript Game, made using Node.js, MongoDB, JavaScript and HTML5/CSS. Repository hosted on GitHub.';
 
@@ -36,9 +37,6 @@ export class EducationComponent implements OnInit {
 
   public infoSys = 'Production of an Oracle SQL database and learning database fundamentals.';
 
-  public gradeCollege = 'Access to Higher Education Computing.\n' +
-    'Selected for meetings with OCN London to give feedback on how to improve the access courses.';
-
   public baySide = 'A*, B, C, Merit (Including English and Mathematics).'
 
   constructor() { }
@@ -46,4 +44,19 @@ export class EducationComponent implements OnInit {
   ngOnInit() {
   }
 
+  clickProject(){
+    window.open("https://github.com/ElAndy94/Multiplayer-Shooting-Game");
+  }
+
+  clickCal(){
+    window.open("https://github.com/ElAndy94/Mortgage-Calculator");
+  }
+
+  clickRest(){
+    window.open("https://github.com/ElAndy94/Paperless-Restaurant");
+  }
+
+  clickSnake(){
+    window.open("https://github.com/ElAndy94/First-Project-MultiPlayer-SnakeGame");
+  }
 }
