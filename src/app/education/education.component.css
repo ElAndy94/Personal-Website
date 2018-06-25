@@ -3,20 +3,8 @@
   display: block;
 }
 
-/*#tableStyle {*/
-/*display: block;*/
-/*margin-left: auto;*/
-/*margin-right: auto;*/
-/*width: 70%;*/
-/*!*display: inline-block;*!*/
-/*!*max-width: 70%;*!*/
-/*!*padding-left:2em;*!*/
-/*!*position: ;*!*/
-/*}*/
-
 h4 {
   font-family: courier;
-  /*font-weight: bold;*/
   font-weight: 900;
   text-align: center;
 }
@@ -38,14 +26,12 @@ h4 {
 
 .btn:hover {
   background-color: #6a7077;
-  /*box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);*/
 }
 
 #btnCal {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   font-family: courier;
   color: white;
-  /*margin-right: 1.5em;*/
 }
 
 #btnPro {
@@ -66,8 +52,19 @@ h4 {
   color: white;
 }
 
-/*.btn {*/
-  /*box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
-  /*font-family: courier;*/
-  /*!*margin: 2em;*!*/
+#webSite {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  font-family: courier;
+  color: white;
+}
+
+/*#tableStyle {*/
+/*display: block;*/
+/*margin-left: auto;*/
+/*margin-right: auto;*/
+/*width: 70%;*/
+/*!*display: inline-block;*!*/
+/*!*max-width: 70%;*!*/
+/*!*padding-left:2em;*!*/
+/*!*position: ;*!*/
 /*}*/

@@ -1,5 +1,28 @@
 .container {
-  padding-top: 4em;
+  padding-top: 1.25em;
+}
+
+.card-text {
+  text-align: center;
+  font-style: italic;
+}
+
+.card-body {
+  padding-top: 1em;
+}
+
+.mySpace {
+  margin-top: 1.5em;
+  margin-bottom: 1em;
+}
+
+#btnMe {
+  margin-top: 1em;
+  color: white;
+}
+
+#btnMore {
+  color: white;
 }
 
 #btnMarg {
@@ -13,35 +36,8 @@
 
 .btn {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  /*font-family: courier;*/
-  /*margin: 2em;*/
 }
 
 .btn:hover {
   background-color: #6a7077;
-  /*box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);*/
 }
-
-.card-text {
-  text-align: center;
-  font-style: italic;
-}
-
-#btnMe {
-  margin-top: 1em;
-  color: white;
-}
-
-#btnMore {
-  color: white;
-}
-
-.card-body {
-  /*max-width: 60%;*/
-  padding-top: 1em;
-}
-
-.mySpace {
-  margin-top: 2em;
-}
-

@@ -2,17 +2,11 @@
   <div class="text-center">
     <h2>Andrew Peliza</h2>
     <hr>
-    <!--<p class="card-text">{{ secondInfo [0] }} </p>-->
-    <!--<p class="card-text">{{ secondInfo [1] }} </p>-->
-    <!--<p class="card-text">{{ secondInfo [2] }} </p>-->
-    <!--<p class="card-text">{{ secondInfo [3] }} </p>-->
-    <!--<p class="card-text">{{ secondInfo [4] }} </p>-->
     <p class="card-text">{{ andyInfo [0] }} </p>
     <p class="card-text">{{ andyInfo [1] }} </p>
     <p class="card-text">{{ andyInfo [2] }} </p>
     <p class="card-text">{{ andyInfo [3] }} </p>
     <p class="card-text">{{ andyInfo [4] }} </p>
-    <hr>
     <div class="text-center">
       <a class="btn btn-dark btn-mm" id="btnMe" (click)="clickedMe()"> Get to Know More...
         <i class="fas fa-exclamation"></i>
@@ -20,7 +14,7 @@
       <div *ngIf="show">
         <div class="card-body text-dark">
           <hr>
-          <p class="card-text">{{ thirdInfo [0] }}<br>{{ thirdInfo [1] }}</p>
+          <p class="card-text">{{ thirdInfo [0] }}<br><br>{{ thirdInfo [1] }}</p>
           <hr>
           <a class="btn btn-dark btn-mm" id="btnMore" (click)="clickedMeToo()"> Want to know even more...
             <i class="fas fa-question"></i>
@@ -29,7 +23,6 @@
             <div class="card-body text-dark">
               <hr>
               <p class="card-text">{{ lastInfo }}<br><b><br>{{ bonus [0] }}</b><br> {{bonus [1] }}</p>
-              <hr>
             </div>
           </div>
         </div>
@@ -37,13 +30,12 @@
     </div>
     <div class="text-center">
       <div class="mySpace">
-      <a class="btn btn-dark btn-mm" id="btnMarg" (click)="openGit()">
-        <i class="fab fa-github"></i> GitHub
-      </a>
-      <a class="btn btn-dark btn-mm" id="btnRight" (click)="openLink()">
-        <i class="fab fa-linkedin"></i> LinkedIn
-      </a>
+        <a class="btn btn-dark btn-mm" id="btnMarg" (click)="openGit()">
+          <i class="fab fa-github"></i> GitHub
+        </a>
+        <a class="btn btn-dark btn-mm" id="btnRight" (click)="openLink()">
+          <i class="fab fa-linkedin"></i> LinkedIn
+        </a>
       </div>
     </div>
-    <!--<p>I am a sociable, active and helpful person who takes pride in my appearance.  I have good leadership skills, which I show within my studies at university when working within teams and by being a director of my own business.</p>-->
   </div>

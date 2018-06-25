@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 
 @Component({
   selector: 'app-education',
@@ -7,15 +7,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class EducationComponent implements OnInit {
   yearThree = ['Project', 'Advanced Web Development', 'Data Engineering', 'Information Systems Strategy'];
-  yearTwo = ['Web Design and Development','Web Based Business Systems','Database Systems','Professional Development'];
-  yearOne = ['Java Programming','Computer System Fundamentals','Web and Multimedia','Information Systems and Database'];
-  college = ['Kingston College, London',  'Merit', '(Sept 2014 – July 2015)'];
+  yearTwo = ['Web Design and Development', 'Web Based Business Systems', 'Database Systems', 'Professional Development'];
+  yearOne = ['Java Programming', 'Computer System Fundamentals', 'Web and Multimedia', 'Information Systems and Database'];
+  college = ['Kingston College, London', 'Merit', '(Sept 2014 – July 2015)'];
   baysideSchool = ['Bayside Comprehensive, Gibraltar', '(2006 – 2010)'];
   gradeCollege = ['Access to Higher Education Computing.', 'Selected for meetings with OCN London to give feedback on how to improve the access courses.'];
 
   public projectDescription = 'Research, design, implement, test and evaluate a JavaScript Game, made using Node.js, MongoDB, JavaScript and HTML5/CSS. Repository hosted on GitHub.';
 
-  public advDescription = 'Production of a mortgage calculator application, made using Angular. Research and comparison of web development frameworks to create a paperless restaurant application using Vue.js.'
+  public advDescription = 'Production of a mortgage calculator application, made using Angular. Research and comparison of web development frameworks to create a paperless restaurant application using Vue.js.';
 
   public dataEng = 'Research, analyse, test different methods of data mining technologies. Cleaned and made sense of a data set for mortgage applicants.';
 
@@ -37,26 +37,31 @@ export class EducationComponent implements OnInit {
 
   public infoSys = 'Production of an Oracle SQL database and learning database fundamentals.';
 
-  public baySide = 'A*, B, C, Merit (Including English and Mathematics).'
+  public baySide = 'A*, B, C, Merit (Including English and Mathematics).';
 
-  constructor() { }
+  constructor() {
+  }
 
   ngOnInit() {
   }
 
-  clickProject(){
-    window.open("https://github.com/ElAndy94/Multiplayer-Shooting-Game");
+  clickProject() {
+    window.open('https://github.com/ElAndy94/Multiplayer-Shooting-Game');
   }
 
-  clickCal(){
-    window.open("https://github.com/ElAndy94/Mortgage-Calculator");
+  clickCal() {
+    window.open('https://github.com/ElAndy94/Mortgage-Calculator');
   }
 
-  clickRest(){
-    window.open("https://github.com/ElAndy94/Paperless-Restaurant");
+  clickRest() {
+    window.open('https://github.com/ElAndy94/Paperless-Restaurant');
   }
 
-  clickSnake(){
-    window.open("https://github.com/ElAndy94/First-Project-MultiPlayer-SnakeGame");
+  clickSnake() {
+    window.open('https://github.com/ElAndy94/First-Project-MultiPlayer-SnakeGame');
+  }
+
+  webSite() {
+    window.open('https://fathomless-escarpment-26242.herokuapp.com/');
   }
 }
