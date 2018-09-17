@@ -7,7 +7,7 @@ import {Component, OnInit} from '@angular/core';
 })
 export class ExperienceComponent implements OnInit {
   workExp = [
-    '(Summer Job) Customs Officer, Gibraltar', '(Jun 2015 – Aug 2015)', 'Managing Director of Andy Holdings Ltd', '(May 2013 – Aug 2015)', 'Co-Founder of Avanti Construction & Maintenance', '(Oct 2012 – Mar 2013)', 'ICT Technician, Systems Services, Gibraltar', '(Mar 2011 – May 2011)', 'Software Developer, Manchester Metropolitan University', '(Jun 2018 – Present)'];
+    '(Summer Job) Customs Officer, Gibraltar', '(Jun 2015 – Aug 2015)', 'Managing Director of Andy Holdings Ltd', '(May 2013 – Aug 2015)', 'Co-Founder of Avanti Construction & Maintenance', '(Oct 2012 – Mar 2013)', 'ICT Technician, Systems Services, Gibraltar', '(Mar 2011 – May 2011)', 'Software Developer, Manchester Metropolitan University', '(Jun 2018 – Sep 2018)'];
 
   vol = ['Trainee at Gibraltar Fire & Rescue', 'May 2010 – May 2010'];
 
