@@ -7,8 +7,10 @@
     <p class="card-text">{{ andyInfo [2] }} </p>
     <p class="card-text">{{ andyInfo [3] }} </p>
     <p class="card-text">{{ andyInfo [4] }} </p>
+    <p class="card-text">{{ andyInfo [5] }} </p>
+    <p class="card-text"><u>{{ andyInfo [6] }}</u></p>
     <div class="text-center">
-      <a class="btn btn-dark btn-mm" id="btnMe" (click)="clickedMe()"> Get to Know More...
+      <a class="btn btn-dark btn-mm btn-animation" id="btnMe" (click)="clickedMe()"> Get to Know More...
         <i class="fas fa-exclamation"></i>
       </a>
       <div *ngIf="show">
@@ -16,7 +18,7 @@
           <hr>
           <p class="card-text">{{ thirdInfo [0] }}<br><br>{{ thirdInfo [1] }}</p>
           <hr>
-          <a class="btn btn-dark btn-mm" id="btnMore" (click)="clickedMeToo()"> Want to know even more...
+          <a class="btn btn-dark btn-mm btn-animation" id="btnMore" (click)="clickedMeToo()"> Want to know even more...
             <i class="fas fa-question"></i>
           </a>
           <div *ngIf="showTwo">
@@ -30,10 +32,10 @@
     </div>
     <div class="text-center">
       <div class="mySpace">
-        <a class="btn btn-dark btn-mm" id="btnMarg" (click)="openGit()">
+        <a class="btn btn-dark btn-mm btn-animation" id="btnMarg" (click)="openGit()">
           <i class="fab fa-github"></i> GitHub
         </a>
-        <a class="btn btn-dark btn-mm" id="btnRight" (click)="openLink()">
+        <a class="btn btn-dark btn-mm btn-animation" id="btnRight" (click)="openLink()">
           <i class="fab fa-linkedin"></i> LinkedIn
         </a>
       </div>

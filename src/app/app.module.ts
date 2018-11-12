@@ -10,6 +10,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { HomeComponent } from './home/home.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { BackgroundComponent } from './background/background.component';
+import { ProjectsComponent } from './projects/projects.component';
 
 
 @NgModule({
@@ -21,6 +22,7 @@ import { BackgroundComponent } from './background/background.component';
     HomeComponent,
     NavbarComponent,
     BackgroundComponent,
+    ProjectsComponent,
   ],
   imports: [
     BrowserModule,

@@ -37,7 +37,7 @@ export class EducationComponent implements OnInit {
 
   public infoSys = 'Production of an Oracle SQL database and learning database fundamentals.';
 
-  public baySide = 'A*, B, C, Merit (Including English and Mathematics).';
+  public baySide = "GCSE's Including English and Mathematics.";
 
   constructor() {
   }

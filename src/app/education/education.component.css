@@ -4,15 +4,37 @@
 }
 
 h4 {
-  font-family: courier;
-  font-weight: 900;
+  font-weight: 700;
   text-align: center;
+  letter-spacing: 1px;
+  text-shadow: 0.5rem 0.4rem 2rem rgba(0, 0, 0, 0.3);
+  transition: all 1s;
+}
+
+h4:focus,
+h4:hover {
+  outline: none;
+  transform: scale(1.4) skewX(15deg);
+  text-shadow: 0.5rem 0.4rem 2rem rgba(0, 0, 0, 0.8);
+  /* animation: twist .8s ease-out; */
 }
 
 .card-title {
   text-align: center;
   font-weight: bold;
 }
+
+.card-title__animation {
+  text-shadow: 0.5rem 0.4rem 2rem rgba(0, 0, 0, 0.3);
+  transition: all 1s;
+}
+
+.card-title__animation:focus,
+.card-title__animation:hover {
+  transform: scale(1.2) skewX(15deg);
+  text-shadow: 0.5rem 0.4rem 2rem rgba(0, 0, 0, 0.8);
+}
+
 
 .card-text {
   text-align: center;
@@ -21,11 +43,18 @@ h4 {
 
 .uniTitle {
   padding-top: 2.5em;
-  font-weight: bold;
+  font-weight: 600;
+  letter-spacing: 1px;
 }
 
-.btn:hover {
-  background-color: #6a7077;
+.btn {
+  transition: all 0.2s;
+}
+
+.btn-animation:focus,
+.btn-animation:hover {
+  outline: none;
+  animation: pulsate 1s infinite;
 }
 
 #btnCal {
@@ -58,13 +87,36 @@ h4 {
   color: white;
 }
 
-/*#tableStyle {*/
-/*display: block;*/
-/*margin-left: auto;*/
-/*margin-right: auto;*/
-/*width: 70%;*/
-/*!*display: inline-block;*!*/
-/*!*max-width: 70%;*!*/
-/*!*padding-left:2em;*!*/
-/*!*position: ;*!*/
-/*}*/
+@keyframes pulsate {
+  0% {
+    transform: scale(1);
+    box-shadow: none;
+  }
+
+  50% {
+    transform: scale(1.10);
+    box-shadow: 0 1rem 4rem rgba(0, 0, 0, 0.25);
+  }
+
+  100% {
+    transform: scale(1);
+    box-shadow: none;
+  }
+}
+
+@keyframes twist {
+  0% {
+    transform: scale(1) skewY(2deg);
+    box-shadow: none;
+  }
+
+  50% {
+    transform: scale(1.1);
+    text-shadow: 0 1rem 4rem rgba(0, 0, 0, 0.4);
+  }
+
+  100% {
+    transform: skewX(15deg);
+    text-shadow: 0 1rem 4rem rgba(0, 0, 0, 0.8);
+  }
+}

@@ -1,8 +1,32 @@
 .container {
+  width: 100%;
   padding-top: 1.25em;
+  text-align: center;
+  font-weight: 400;
+  /* background-size: cover; */
+  /* background-image: linear-gradient(to right bottom, rgba(111, 172, 213, 0.4), rgba(83, 134, 211, 0.4)), url('../../assets/images/background.jpg'); */
+  /* height: 100vh; */
+  /* margin-right: 0 !important; */
+  /* margin-left: 0 !important; */
+  /* background-image: linear-gradient(to right bottom, rgba(111, 172, 213, 0.8), rgba(83, 134, 211, 0.8)); */
+}
+
+.container h2 {
+  letter-spacing: .3em;
+  font-size: 3.5em;
+  font-weight: 700;
+  -webkit-text-stroke: 1px black;
+  color: white;
+  text-shadow:
+      3px 3px 0 #000,
+    -1px -1px 0 #000,
+     1px -1px 0 #000,
+     -1px 1px 0 #000,
+      1px 1px 0 #000;
 }
 
 .card-text {
+  font-size: 20px;
   text-align: center;
   font-style: italic;
 }
@@ -14,6 +38,12 @@
 .mySpace {
   margin-top: 1.5em;
   margin-bottom: 1em;
+}
+
+.btn-animation:focus,
+.btn-animation:hover {
+  outline: none;
+  animation: pulsate 1s infinite;
 }
 
 #btnMe {
@@ -35,9 +65,24 @@
 }
 
 .btn {
+  transition: all 0.2s;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.btn:hover {
-  background-color: #6a7077;
+@keyframes pulsate {
+  0% {
+    transform: scale(1);
+    box-shadow: none;
+  }
+
+  50% {
+    transform: scale(1.10);
+    box-shadow: 0 1rem 4rem rgba(0, 0, 0, 0.25);
+  }
+
+  100% {
+    transform: scale(1);
+    box-shadow: none;
+  }
 }
+
