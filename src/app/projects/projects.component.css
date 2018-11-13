@@ -200,6 +200,21 @@ h4 {
     }
 } */
 
+@media only screen and (max-width: 900px) {
+  h1 {
+    font-size: 2.0em;
+  }
+
+  .centerCard {
+    width: 100%;
+  }
+
+  .composition__photo:hover {
+    outline: .3rem solid green;
+    transform: scale(1.90) translateY(-.5rem);
+  }
+}
+
 .btn {
   transition: all 0.2s;
 }
