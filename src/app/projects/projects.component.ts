@@ -28,4 +28,12 @@ export class ProjectsComponent implements OnInit {
     window.open('http://ng-recipe-deploy-angular.s3-website.eu-west-2.amazonaws.com/');
   }
 
+  clickReactGym() {
+    window.open('http://react-gym.s3-website.eu-west-2.amazonaws.com/');
+  }
+
+  clickReactGymRepo() {
+    window.open('https://github.com/ElAndy94/AJGyms');
+  }
+
 }
