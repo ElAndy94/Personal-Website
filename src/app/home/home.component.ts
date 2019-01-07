@@ -10,7 +10,7 @@ export class HomeComponent implements OnInit {
   showTwo = false;
 
   andyInfo = [
-    "Hello! My name is Andrew Peliza and I'm currently living in Manchester.",
+    'Hello! My name is Andrew Peliza',
     'Working on personal projects and achiving qualifications until I find the right job;',
     'On my journey to become a successful developer.',
     'I have a diverse set of skills ranging from; design, to HTML5, CSS',
