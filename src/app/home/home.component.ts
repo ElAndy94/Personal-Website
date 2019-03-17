@@ -11,7 +11,6 @@ export class HomeComponent implements OnInit {
 
   andyInfo = [
     'Hello! My name is Andrew Peliza',
-    'Working on personal projects and achiving qualifications until I find the right job;',
     'On my journey to become a successful developer.',
     'I have a diverse set of skills ranging from; design, to HTML5, CSS',
     'JavaScript (Express, Node.js, Angular.js, Vue.js, React.js, TypeScript, Python), AWS',
@@ -33,8 +32,7 @@ export class HomeComponent implements OnInit {
 
   constructor() {}
 
-  ngOnInit() {
-  }
+  ngOnInit() {}
 
   openGit() {
     window.open('https://github.com/ElAndy94');
