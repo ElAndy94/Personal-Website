@@ -1,0 +1,62 @@
+[
+  {
+    "module": "Advanced Web Development",
+    "description": "Production of a mortgage calculator application, made using Angular. Research and comparison of web development frameworks to create a paperless restaurant application using Vue.js."
+  },
+  {
+    "module": "Project",
+    "description": "Research, design, implement, test and evaluate a JavaScript Game, made using Node.js, MongoDB, JavaScript and HTML5/CSS. Repository hosted on GitHub."
+  },
+  {
+    "module": "Data Engineering",
+    "description": "Research, analyse, test different methods of data mining technologies. Cleaned and made sense of a data set for mortgage applicants."
+  },
+  {
+    "module": "Information Systems Strategy",
+    "description": "Research different strategies and strategic planning in organisations, and how information systems and information technologies exploitation is central in supporting strategic goals."
+  },
+  {
+    "module": "Web Design and Development",
+    "description": "Design, implement, test a JavaScript Game, made using JavaScript, Node.js, SQL and HTML5/CSS. Create fully working website with user login system, online chat using JQuery and PHP."
+  },
+  {
+    "module": "Web Based Business Systems",
+    "description": "Critically evaluate different technologies, use contemporary off-the-shelf e-commerce packages to sell goods, develop online and multi-channel marketing strategies, create web-based software for commerce with user tracking."
+  },
+  {
+    "module": "Database Systems",
+    "description": "Database Modelling (UML Diagrams and relational schemas). SQL Database implementation, relational algebra, physical aspects, query processing and optimisation, concurrency control and interfacing with programming languages and environments."
+  },
+  {
+    "module": "Professional Development",
+    "description": "Worked in a group to produce a fully working website and application for a small business. Group leader of the team assigning different roles to students."
+  },
+  {
+    "module": "Java Programming",
+    "description": "Intro to Java, and creating a space invaders shooting game."
+  },
+  {
+    "module": "Computer System Fundamentals",
+    "description": "Assembly language and discrete mathematic theory."
+  },
+  {
+    "module": "Web and Multimedia",
+    "description": "Principles of web design fundamentals with programs such as Photoshop and using CSS styling."
+  },
+  {
+    "module": "Information Systems and Database",
+    "description": "Production of an Oracle SQL database and learning database fundamentals."
+  },
+  {
+    "place": "Kingston College, London",
+    "grade": "Merit",
+    "date": "(Sept 2014 - July 2015)",
+    "description": "Access to Higher Education Computing.",
+    "extra": "Selected for meetings with OCN London to give feedback on how to improve the access courses."
+  },
+  {
+    "place": "Bayside Comprehensive, Gibraltar",
+    "date": "(2006 - 2010)",
+    "grade": "A*, B, C, Merit (Including English and Mathematics)."
+  }
+]
