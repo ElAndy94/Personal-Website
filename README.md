@@ -1,5 +1,7 @@
 # MyPersonalApp
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/504c39f2d5f74c048bd6695acbe075ee)](https://app.codacy.com/app/ElAndy94/Personal-Website?utm_source=github.com&utm_medium=referral&utm_content=ElAndy94/Personal-Website&utm_campaign=Badge_Grade_Dashboard)
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.4.
 
 ## Development server
