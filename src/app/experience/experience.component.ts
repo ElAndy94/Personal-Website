@@ -18,7 +18,11 @@ export class ExperienceComponent implements OnInit {
     'Software Developer, Manchester Metropolitan University',
     '(Jun 2018 – Sep 2018)',
     'FullStack Developer, Eversmart Energy',
-    '(Sep 2018 – Nov 2018)'
+    '(Sep 2018 – Nov 2018)',
+    'Lead Frontend Developer, Dyne',
+    '(Jan 2019 – April 2019)',
+    'Frontend Developer, Think Money Group',
+    '(March 2019 – Present)'
   ];
 
   vol = ['Trainee at Gibraltar Fire & Rescue', 'May 2010 – May 2010'];
@@ -28,6 +32,27 @@ export class ExperienceComponent implements OnInit {
     'Customs Officer Manager',
     'Dr Kristopher Welsh',
     'University Tutor'
+  ];
+
+  public thinkmoney = [
+    '• Building the front end of web based applications using the latest techniques and technologies (full websites, customer journeys, landing pages, HTML ads).',
+    '• Working in a cross functional team, and attending SCRUMs and project meetings.',
+    '• Liaising with other front-end and back-end developers, designers, SEO team, testers and implementation staff.',
+    '• Ensuring cross-platform optimisation across required devices.',
+    '• Interpreting customer requirements to deliver efficient, functional solutions.',
+    '• Keeping up-to-date with latest technologies and suggest when appropriate to implement.',
+    '• Assisting in investigating and resolving web/software bugs.'
+  ];
+
+  public dyne = [
+    '• Using React inc Redux combined with Typescript ( Graphql ) Node.',
+    '• Coordinating with, and implementing handovers from, the design team.',
+    '• Developing production grade front end web architecture.',
+    '• Ensuring cross-platform optimisation across required devices.',
+    '• Conceptualising and implementing robust QA and testing frameworks.',
+    '• Taking ownership of, and managing / seeing through a project from conception to finalisation.',
+    '• Meeting both technical and business needs.',
+    '• Staying abreast of developments in web applications and programming languages.'
   ];
 
   public cust = [

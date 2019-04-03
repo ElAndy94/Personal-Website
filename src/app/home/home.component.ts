@@ -12,9 +12,9 @@ export class HomeComponent implements OnInit {
   andyInfo = [
     'Hello! My name is Andrew Peliza',
     'On my journey to become a successful developer.',
-    'I have a diverse set of skills ranging from; design, to HTML5, CSS',
-    'JavaScript (Express, Node.js, Angular.js, Vue.js, React.js, TypeScript, Python), AWS',
-    'PHP, SQL, jQuery and basic knowledge of other languages...',
+    'I have a diverse set of skills ranging from; design, to HTML5, CSS/SCSS(Sass)',
+    'JavaScript (Express, Node.js, Angular.js, Vue.js, React.js, TypeScript), Python, AWS',
+    'PHP, SQL, jQuery, ASP.Net, C# and basic knowledge of other languages...',
     'Graduated with a First Class Honours Degree.',
     'LinkedIn Profile: https://www.linkedin.com/in/andrewpeliza',
     'GitHub: https://github.com/ElAndy94'
